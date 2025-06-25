@@ -1,0 +1,67 @@
+@keyframes r-ani{
+	50%{transform: translateY(10px);}
+	100%{transform: translateY(0);}
+}
+
+@keyframes fade-ani{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes mouse-wheele-ani{
+  0% {transform: translateY(0);}
+	50% {transform: translateY(-5px);}
+	100% {transform: translateY(0);}
+}
+
+
+/* Sec1_______________________________ */
+.title1, .mainSec1 .open-modal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.title1.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.mainSec1 .open-modal.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.5s; /* title1 뒤에 나옴 */
+}
+
+
+
+
+/* sec3__________________________________ */
+.sec3-top, .sec3-bottom {
+  opacity: 0;
+  transform: translateY(-100px); 
+  transition: all 1s ease;
+}
+
+.sec3-top.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sec3-bottom {transform: translateY(100px);}
+
+.sec3-bottom.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sec3-bottom img{
+  animation: sec3-ani infinite 20s linear;
+}
+
+@keyframes sec3-ani{
+  10%{transform: translateY(0);}
+  35%{transform: translateX(-200px);}
+  75%{transform: translateX(200px);}
+  100%{transform: translateX(0px);}
+}

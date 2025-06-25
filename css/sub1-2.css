@@ -1,0 +1,96 @@
+/* 배경이미지 */
+.s1-2{background-image: url(../image/sub1-2.png);}
+
+
+.sub1-2sec1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #EDF3FF;
+}
+.sub1-2sec2{
+  margin:  0;
+}
+
+
+.doc-tit{
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 50px;
+  background-color: aliceblue;
+}
+.sub1-2sec2 h2{
+  font-family: 'Freesentation-6SEMIBOLD';
+  font-size: 40px;
+  color: #333;
+  text-align: center;
+}
+.sub1-2sec2 h2 strong{
+  font-family: 'Freesentation-9Black';
+  display: block;
+  font-size: 48px;
+  color: #1935A7;
+}
+
+.doctors{
+  /* border: 5px solid fuchsia; */
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 70px 50px;
+  background-color: aliceblue;
+  gap: 30px;
+}
+
+.store2{
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1300px;
+  gap: 30px;
+}
+
+.doc-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  height: 740px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0, 0.4);
+  transition: 0.5s;
+}
+.doc-card:hover{transform: translateY(-20px);}
+
+.doc-txt{
+  text-align: center;
+}
+.doc-info{
+  text-align: center;
+}
+
+
+/* 카드 폰트 */
+.doc-txt span{
+  font-size: 24px;
+  color: #1935A7;
+}
+.doc-info h4{
+  font-family: 'Freesentation-9Black';
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 15px;
+}
+.doc-info span{
+  font-family: 'Freesentation-5MEDIUM';
+  color: #333;
+}
+.doc-info p{
+  padding-top: 10px;
+color: #1365A1;
+}

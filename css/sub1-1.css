@@ -1,0 +1,72 @@
+/* 배경이미지 */
+.s1-1{background-image: url(../image/sub1-1.png);}
+
+
+
+/* 섹션 */
+.sub1-1Sec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+  width: 1000px;
+  background-color: #fff;
+  /* border: 1px solid #000; */
+}
+
+.sub1-text{
+  /* border: 1px solid red; */
+  height: max-content;
+}
+
+
+.sub1-1Sec h2{
+  font-family: 'Freesentation-9Black';
+  font-size: 60px;
+  color: #1365A1;
+}
+.sub1-1Sec h3{
+  font-family: 'Freesentation-4REGULAR';
+  font-size: 20px;
+  color: #333;
+  margin-top: 20px;
+}
+
+
+/* 이미지 호버 */
+.sub1-img, .sub1-img2{position: relative;}
+
+.sub1-img:before{
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: 70%;
+  height: 60%;
+  background-color: #1365A1;
+  z-index: -1;
+  transition: 0.3s;
+}
+.sub1-img:hover::before{
+  bottom: -10px;
+  left: -10px;
+}
+
+.sub1-img2:before{
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 70%;
+  height: 60%;
+  background-color: #1365A1;
+  z-index: -1;
+  transition: 0.3s;
+}
+.sub1-img2:hover::before{
+  top: -10px;
+  right: -10px;
+}
+
+.sub1-text:nth-child(2){padding-right: 100px;}
+

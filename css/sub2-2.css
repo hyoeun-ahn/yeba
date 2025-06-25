@@ -1,0 +1,107 @@
+/* top배경이미지 */
+.s2-2{background-image: url(../image/sub2-2.png);}
+
+
+.sub2-2{
+  /* border: 5px solid #000; */
+  width: 1300px;
+}
+
+/* 폰트 */
+.product-tit h3 {
+  font-family: 'Freesentation-6SEMIBOLD';
+  font-size: 26px;
+  font-style: normal;
+  color: #1365A1;
+  padding-bottom: 10px;
+}
+.product-tit h2{
+font-size: 40px;
+color: #333;
+}
+.product p{
+  font-family: 'Freesentation-4REGULAR';
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+}
+.check-list li h6{
+  font-family: 'Freesentation-4REGULAR';
+  font-size: 18px;
+  color: #333;
+  margin-right: 20px;
+  width: 180px;
+}
+
+
+/* 전체사이즈 */
+.sub2-2 {
+  /* border: 10px solid red; */
+  width: 1300px;
+  padding: 70px 50px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../image/sub2-2a.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.products{
+  width: 1000px;
+  gap: 20px;
+}
+.product{
+  background-color: rgba(255,255,255,0.7);
+  border: 1px solid #fff;
+  padding: 40px;
+  width: 1000px;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.product-img{
+  width: 500px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50px 0 50px 0;
+}
+.product-img img{height: 350px;}
+
+.product-txt{
+  width: 400px;
+  margin-left: 70px;
+}
+
+.product-tit,
+.check-list
+  {margin-bottom: 20px;}
+
+
+.check-list li{
+  display: flex;
+  width: 170px;
+  margin-bottom: 5px;
+}
+
+/* 체크 */
+.check{display: flex;}
+.check .check-yes{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #18B5FC;
+  border: 1px solid #18B5FC;
+  margin: 5px;
+}
+.check .check-no{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #eee;
+  margin: 5px;
+}

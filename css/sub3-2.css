@@ -1,0 +1,226 @@
+/* 배경이미지 */
+.s3-2{background-image: url(../image/sub3-2.png);}
+
+.sub-title3{
+  /* border: 1px solid #000; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.sub-title3 h3{
+  font-family: 'Freesentation-5MEDIUM';
+  font-size: 48px;
+  padding-bottom: 10px;
+  color: #1935A7;
+}
+.sub-title3 p{
+  font-family: 'Freesentation-4REGULAR';
+  font-size: 24px;
+  text-align: center;
+  margin-top: 10px;
+  color: #333;
+}
+.sub-title3 p strong{
+  color: #CE1357;
+}
+
+
+.sub3-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  padding-bottom: 50px;
+}
+
+
+/* 섹션1___________________________ */
+.sub3-2sec1{
+  background-color: #f6f9ff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 500px;
+  padding: 100px;
+}
+
+
+.sub3-left .notice{
+  width: 350px;
+  display: flex;
+  margin: 30px 0;
+}
+.notice span{
+  width: 60px;
+  padding-right: 20px;
+  font-family: 'Freesentation-6SEMIBOLD';
+  color: #1935A7;
+}
+.notice p,
+.notice2 p{
+  font-family: 'Freesentation-5MEDIUM';
+  color: #444;
+}
+
+
+
+.sub3-left{
+  /* border: 1px solid red; */
+  margin-right: 50px;
+}
+.sub3-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* 이메일 */
+.sec1store{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 390px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid #18B5FC;
+  background-color: #fff;
+  margin: 10px;
+  transition: 0.3s;
+}
+.sec1store span{
+  font-size: 20px;
+  color: #1935A7;
+  width: 300px;
+}
+.sec1store i{
+  font-family: 'Freesentation-4REGULAR';
+  font-style: normal;
+  color: #333;
+  margin-left: 20px;
+}
+.sec1store:hover{
+  transform: translateY(-10px);
+  border: 3px solid #18B5FC;
+}
+
+
+
+/* 섹션2______________________ */
+.sub3-2sec2{
+  background-color: #f6f9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  height: max-content;
+  background-color: transparent; 
+  border: none;
+}
+
+.form h3{
+  font-family: 'Freesentation-6SEMIBOLD';
+  font-size: 24px;
+  color: #1365A1;
+}
+
+.scroll{
+  border: 1px solid #1365A1;
+  background-color: #fff;
+  padding: 20px;
+  width: 700px;
+  height: 460px;
+  margin-top: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+.agree{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  padding: 20px 20px 100px 20px;
+  overflow-y: auto;   /* 세로 스크롤 */
+  line-height: 1.6;
+}
+
+.agree::-webkit-scrollbar{width: 10px;}
+
+.agree::-webkit-scrollbar-thumb{background-color: #1365A1;}
+
+.agree::-webkit-scrollbar-track{
+  background-color: #EDF3FF;
+  border-radius: 10px;
+  }
+
+.agree,
+.form-check label{
+  font-family: 'Freesentation-4REGULAR';
+  color: #333;
+  padding-left: 10px;
+}
+.form-check label em{
+  font-style: normal;
+  color: #1365A1;
+}
+.form-check label:hover{color: #1365A1;}
+.form-check label:active{color: #1935A7;}
+
+.form-check{
+  margin-top: 20px;
+}
+
+
+
+
+
+/* 버튼 */
+.form-btn{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.form-btn a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 400px;
+  height: 60px;
+  background-color: #1365A1;
+  color: #fff;
+  border-radius: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-btn a:hover{
+  background-color: #fff;
+  color: #1365A1;
+  border: 1px solid #1365A1;
+}

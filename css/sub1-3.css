@@ -1,0 +1,115 @@
+/* 배경이미지 */
+.s1-3{background-image: url(../image/sub1-3.jpg);}
+
+.map-store{
+  margin-bottom: 150px;
+}
+.info{
+  display: flex;
+  gap: 50px;
+}
+.map-img1,
+.map-img2,
+.map-img3,
+.map-img4{
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.map-img1{
+  background-image: url(../image/map1.png);
+  background-position: center;
+  background-size: cover;
+}
+.map-img2{
+  background-image: url(../image/map2.png);
+  background-position: center;
+  background-size: cover;
+}
+.map-img3{
+  background-image: url(../image/map3.png);
+  background-position: center;
+  background-size: cover;
+}
+.map-img4{
+  background-image: url(../image/map4.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.map-right{width: 350px;}
+.map-info{
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.map-info h3{
+  font-size: 40px;
+  color: #1935A7;
+}
+.map-info h4{
+  font-size: 28px;
+  color: #1365A1;
+}
+.map-info h5{
+  font-family: 'Freesentation-5MEDIUM';
+  color: #999;
+}
+
+
+
+.map-btn{
+  position: relative;
+  width: 270px;
+  height: 55px;
+  text-align: left;
+  align-content: center;
+  margin-top: 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+  border-radius: 50px;
+  transition: 0.5s;
+}
+
+
+.map-btn a{
+  display: inline-block;
+  width: 270px;
+  height: 55px;
+  position: absolute;
+  top: 0;
+  left: -25px;
+  align-content: center;
+  margin-left: 30px;
+  padding-left: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.map-btn:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 100px;
+  width: 80px;
+  height: 50px;
+  background-image: url(../image/arrow2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  transition: 0.5s;
+}
+.map-btn:hover:before{
+  transform: translateX(70px);
+  opacity: 1;
+}
+.map-btn:hover{
+  transform: translate(10px, 10px);
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  color: #1935A7;
+}
+
+
+.map{margin-top: 30px;}
+
