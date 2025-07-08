@@ -292,8 +292,12 @@ footer{
   height: 250px;
   display: flex;
 }
+footer img{
+  height: 30px;
+}
 
 footer .inner{
+  width: 1300px;
   display: flex;
   align-items: center;
   justify-content: center;
