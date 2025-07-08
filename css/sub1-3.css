@@ -45,12 +45,12 @@
   row-gap: 10px;
 }
 .map-info h3{
-  font-size: 40px;
-  color: #1935A7;
+  font-size: 36px;
+  color: #333;
 }
 .map-info h4{
-  font-size: 28px;
-  color: #1365A1;
+  font-size: 24px;
+  color: #333;
 }
 .map-info h5{
   font-family: 'Freesentation-5MEDIUM';

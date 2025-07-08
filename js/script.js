@@ -103,11 +103,11 @@ $(document).ready(function () {
       if (scrollTop + windowHeight > main1Top + 100) {
         $(".title1").addClass("show");
         setTimeout(function () {
-          $(".mainSec1 .open-modal").addClass("show");
+          $(".mainSec1 .modal-btn").addClass("show");
         }, 200);
       } else {
         $(".title1").removeClass("show");
-        $(".mainSec1 .open-modal").removeClass("show");
+        $(".mainSec1 .modal-btn").removeClass("show");
       };
     };
   

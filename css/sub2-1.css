@@ -11,13 +11,13 @@
 }
 .sub2-title h3{
   font-family: 'Freesentation-3LIGHT';
-  font-size: 32px;
+  font-size: 28px;
   color: #333;
 }
 .sub2-title h3 strong{
   display: block;
-  font-size: 64px;
-  color: #1935A7;
+  font-size: 42px;
+  font-family: 'Freesentation-5MEDIUM';
 }
 
 .sub2-1{
@@ -73,7 +73,7 @@
 
 
 .sub2-card-item h4{
-  font-size: 40px;
+  font-size: 36px;
   padding: 30px;
   color: #1365A1;
 }

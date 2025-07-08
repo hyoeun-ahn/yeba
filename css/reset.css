@@ -16,7 +16,9 @@ html{
 	overflow-x:hidden; 
 }
 
-body{font-family: 'Noto Sans KR', sans-serif;}
+body{
+	font-family: 'Freesentation-3LIGHT';
+}
 
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section{display:block;}

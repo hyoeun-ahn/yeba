@@ -23,18 +23,6 @@
   background-color: #fff;
   position: relative;
 }
-.login-logo h3:before{
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: block;
-  width: 230px;
-  height: 1px;
-  background-color: #18B5FC;
-  z-index: -1;
-}
 
 .btn-next{
   width: 250px;
@@ -47,7 +35,9 @@
   background-color: #1365A1;
   margin-top: 30px;
 }
-.btn-next:hover{border-radius: 20px;}
+.btn-next:hover{
+  background-color: #1935A7;
+}
 
 .form-check a{
   color: #666;

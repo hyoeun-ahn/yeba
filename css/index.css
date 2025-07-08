@@ -44,8 +44,8 @@
 }
 
 .visu-img img{
-  width: inherit;
-  height: inherit;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -55,7 +55,6 @@
   top: 20%;
   left: 10%;
   font-size: 42px;
-  font-weight: bold;
   color: #fff;
   line-height: 1.4;
   height: auto;
@@ -131,19 +130,18 @@
 }
 
 .title1 h2{
-  color: #1365A1;
+  color: #333;
+  font-family: 'Freesentation-3LIGHT';
   font-size: 40px;
 }
 .title1 h2 strong{
-  color: #1935A7;
+  color: #1365A1;
+  font-family: 'Freesentation-5MEDIUM';
   font-size: 64px;
 }
-.title1 h2 em{
-  font-style: normal;
-  color: #D51B64;
-}
 
-.mainSec1 a{
+
+.modal-btn{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,18 +149,13 @@
   width: 160px;
   height: 60px;
   /* background-color: #fff; */
-  border: 1px solid #1935A7;
-  color: #1935A7;
+  border: 1px solid #dbdbdb;
+  color: #333;
   font-size: 20px;
   margin-top: 50px;
   cursor: pointer;
-  transition: 0.35s;
 }
 
-.mainSec1 a:hover{
-  background-color: #1935A7;
-  color: #fff;
-}
 
 
 
@@ -368,17 +361,17 @@
 .sec5-t h2{
   font-family: 'Freesentation-6SEMIBOLD';
   font-size: 64px;
-  color: #1935A7;
+  color: #1365A1;
 }
 .sec5-t h3,
 .sec5-card .card h4{
   font-family: 'Freesentation-5MEDIUM';
   font-size: 32px;
+  font-weight: 300;
   color: #333;
 }
 .sec5-t h3 em{
   font-style: normal;
-  color: #1365A1;
 }
 
 .sec5-card{display: flex;}
@@ -389,10 +382,11 @@
   justify-content: center;
   align-items: center;
   background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(0,0,0,0.1);
   width: 280px;
   height: 300px;
   margin: 0 10px;
-  border: 1px solid #1365A1;
   transition: 0.35s;
 }
 
@@ -424,12 +418,11 @@
 
 .sec5-card a:hover .card p img{width: 40px;}
 .sec5-card a:hover .card{
-  background-color: #1935A7;
   transform: scale(1.1);
 }
-.sec5-card a:hover h4{color: #fff;}
-.sec5-card a:hover h5{color: #fff;}
-.sec5-card a:hover h6{color: #eee;}
+.sec5-card a:hover .card h4{
+  color: #1365A1;
+}
 
 .inner6 {margin-top: 50px;}
 .inner6 img{

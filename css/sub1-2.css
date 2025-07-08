@@ -17,8 +17,8 @@
 .doc-tit{
   display: flex;
   justify-content: center;
-  padding: 100px 0 50px;
   background-color: aliceblue;
+  padding-top: 80px;
 }
 .sub1-2sec2 h2{
   font-family: 'Freesentation-6SEMIBOLD';
@@ -62,10 +62,13 @@
   width: 400px;
   height: 740px;
   background-color: #fff;
-  box-shadow: 0 0 5px rgba(0,0,0, 0.4);
   transition: 0.5s;
 }
-.doc-card:hover{transform: translateY(-20px);}
+.doc-card:hover{
+  transform: translateY(-20px);
+  box-shadow: 0 0 10px rgba(0,0,0, 0.2);
+
+}
 
 .doc-txt{
   text-align: center;
@@ -77,8 +80,8 @@
 
 /* 카드 폰트 */
 .doc-txt span{
-  font-size: 24px;
-  color: #1935A7;
+  font-size: 22px;
+  color: #333;
 }
 .doc-info h4{
   font-family: 'Freesentation-9Black';

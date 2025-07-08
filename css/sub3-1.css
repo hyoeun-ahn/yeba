@@ -13,19 +13,10 @@
 .sub3-1sec h4{
   font-family: 'Freesentation-5MEDIUM';
   font-size: 32px;
-  color: #18B5FC;
+  color: #333;
   margin-bottom: 50px;
-  background-color: #EDF3FF;
 }
-.sub3-1sec h4:after{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 13000px;
-  height: 60px;
-  background-color: #EDF3FF;
-}
+
 .sub3-1sec span{
   font-size: 22px;
   color: #333;
@@ -55,7 +46,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;  
-  background-color: #EDF3FF;
+  background-color: #f6f9ff;
   width: 1300px;
   padding: 30px;
 }

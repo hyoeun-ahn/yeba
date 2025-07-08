@@ -36,23 +36,16 @@ color: #333;
 
 /* 전체사이즈 */
 .sub2-2 {
-  /* border: 10px solid red; */
   width: 1300px;
-  padding: 70px 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-image: url(../image/sub2-2a.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 100px;
 }
 
-.products{
-  width: 1000px;
-  gap: 20px;
-}
 .product{
-  background-color: rgba(255,255,255,0.7);
   border: 1px solid #fff;
   padding: 40px;
   width: 1000px;
@@ -61,7 +54,6 @@ color: #333;
   justify-content: center;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 100px;
 }
 
 .product-img{

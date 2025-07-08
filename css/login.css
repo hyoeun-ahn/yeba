@@ -31,7 +31,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 15px;
+  gap: 5px;
 }
 
 .input{margin-bottom: 30px;}
@@ -63,7 +63,6 @@
 }
 .login_btn button:nth-child(1):hover{
   background-color: #1935A7;
-  border-radius: 20px;
 }
 
 .find{ 
